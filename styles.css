@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -10,4 +11,168 @@
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+    position: relative;
+    right: 70px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    /*no bullets*/
+    display: inline-block;
+    /*present it horizontally*/
+    padding: 8px 15px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%
+}
+
+.text-box {
+    color: #fff;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 60px;
+}
+
+.text-box p {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0 40px;
+}
+
+.about-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #268AF3;
+    cursor: pointer;
+}
+
+.about-text-box {
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: flex-start;
+    text-align: center;
+}
+
+.about-text-box h1 {
+    font-size: 60px;
+}
+
+.about-text-box h2 {
+    font-size: 40px;
+    padding: 50px
+}
+
+.likes-col h3 {
+    font-size: 30px;
+    color: #ABA9A9;
+    padding: 20px;
+    transform: translate(0%, -100%);
+}
+
+.likes-col p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    transform: translate(0%, -50%);
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*-----------projects in about.html-----------*/
+
+.projects {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 50px
+}
+
+p {
+    font-size: 20px;
+    color: #0000;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+}
+
+a {
+    font-size: 20px;
+    margin: 10px 0 40px;
+}
+
+.github-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.github-button:hover {
+    border: 1px solid #1BB02F;
+    background: #1BB02F;
+    transition: 0.5s;
 }
