@@ -22,6 +22,18 @@
     position: relative;
 }
 
+.project-header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)), url(images/projects.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
 nav {
     display: flex;
     padding: 2% 6%;
@@ -97,6 +109,9 @@ nav img {
     cursor: pointer;
 }
 
+
+/*-----------likes in about.html-----------*/
+
 .about-text-box {
     color: #C3C2C2;
     width: 80%;
@@ -141,7 +156,7 @@ nav img {
 }
 
 .likes-col p:hover {
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.4);
 }
 
 .row {
@@ -153,16 +168,16 @@ nav img {
 
 /*-----------projects in about.html-----------*/
 
-.projects {
-    width: 80%;
+.projects-col {
+    width: 20%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    color: #fff;
 }
 
 h2 {
     font-size: 40px;
-    padding: 50px
+    text-align: center;
 }
 
 p {
