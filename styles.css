@@ -103,7 +103,7 @@ nav img {
 }
 
 .about-button {
-    display: inline-block;
+    display: inline;
     text-decoration: none;
     color: #268AF3;
     cursor: pointer;
@@ -169,27 +169,43 @@ nav img {
 /*-----------projects in about.html-----------*/
 
 .projects-col {
-    width: 20%;
+    width: 60%;
     margin: auto;
-    text-align: center;
     color: #fff;
+    text-align: left;
 }
 
-h2 {
+.projects-col img {
+    width: 20%;
+    transform: translate(-100%, 20%);
+}
+
+.projects-col h2 {
     font-size: 40px;
     text-align: center;
 }
 
-p {
-    font-size: 20px;
-    color: #0000;
-    font-weight: 300;
-    line-height: 20px;
-    padding: 10px;
+.projects-col h3 {
+    transform: translate(20%, -700%);
+    text-align: center;
+    font-size: 30px;
 }
 
-a {
+.projects-col p {
     font-size: 20px;
+    transform: translate(20%, -90%);
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.github-profile a {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 15px;
     margin: 10px 0 40px;
 }
 
@@ -203,6 +219,7 @@ a {
     background: transparent;
     position: relative;
     cursor: pointer;
+    text-align: end;
 }
 
 .github-button:hover {
