@@ -152,6 +152,10 @@ nav img {
     color: #fff;
 }
 
+.arrow i:hover {
+    cursor: pointer;
+}
+
 .arrow p {
     font-size: 30px;
 }
