@@ -284,8 +284,7 @@ nav img {
 }
 
 .contact-content {
-    color: #0000;
-    height: 50%;
     justify-content: center;
     justify-items: center;
+    margin-top: 150px;
 }
