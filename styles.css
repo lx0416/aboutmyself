@@ -97,7 +97,7 @@ nav img {
 }
 
 .nav-links ul li:hover::after {
-    width: 100%
+    width: 100%;
 }
 
 .text-box {
@@ -144,6 +144,18 @@ nav img {
     justify-content: space-between;
 }
 
+.arrow {
+    transform: translate(0, 180%);
+}
+
+.arrow .fa {
+    color: #fff;
+}
+
+.arrow p {
+    font-size: 30px;
+}
+
 .about-text-box h1 {
     font-size: 60px;
 }
@@ -185,7 +197,7 @@ nav img {
 }
 
 
-/*-----------projects in about.html-----------*/
+/*-----------projects in course.html-----------*/
 
 .projects-col {
     width: 60%;
@@ -245,4 +257,12 @@ nav img {
     border: 1px solid #1BB02F;
     background: #1BB02F;
     transition: 0.5s;
+}
+
+
+/*-----------contact.html-----------*/
+
+.contact-text-box {
+    text-align: center;
+    font-size: 30px;
 }
