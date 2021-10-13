@@ -263,6 +263,29 @@ nav img {
 /*-----------contact.html-----------*/
 
 .contact-text-box {
-    text-align: center;
     font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-text-box .fab {
+    color: #0874EE;
+}
+
+.contact-text-box .fas {
+    color: #0874EE;
+    /*0ED12B*/
+}
+
+.contact-content p {
+    text-align: center;
+    color: #0874EE;
+    font-size: 30px;
+}
+
+.contact-content {
+    color: #0000;
+    height: 50%;
+    justify-content: center;
+    justify-items: center;
 }
