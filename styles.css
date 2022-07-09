@@ -265,7 +265,7 @@ nav img {
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 15px;
-    transform: translate(0%, 260%);   
+    transform: translate(0%, 250%);   
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -282,7 +282,7 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #484848;
-    transform: translate(0%, 80%);    
+    transform: translate(0%, 70%);    
     padding: 12px 34px;
     font-size: 15px;    
     position: relative;
