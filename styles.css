@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
@@ -25,7 +29,7 @@
 .course-header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)), url(images/course.jpeg);
+    background-image: linear-gradient(rgba(169, 170, 182, 0.3), rgba(4, 9, 30, 0.3)), url(images/wp1.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -44,7 +48,7 @@
 .project-header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)), url(images/projects.gif);
+    background-image: linear-gradient(rgba(169, 170, 182, 0.3), rgba(4, 9, 30, 0.3)), url(images/wp1.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -128,11 +132,10 @@ nav img {
     cursor: pointer;
 }
 
-
 /*-----------likes in about.html-----------*/
 
 .about-text-box {
-    color: #C3C2C2;
+    color: #484848;
     width: 80%;
     margin: auto;
     position: absolute;
@@ -145,11 +148,12 @@ nav img {
 }
 
 .arrow {
-    transform: translate(0, 180%);
-}
-
-.arrow .fa {
-    color: #fff;
+    color: #484848;    
+    position: absolute;        
+    text-align: center;    
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-40%, -50%);
 }
 
 .arrow i:hover {
@@ -158,6 +162,10 @@ nav img {
 
 .arrow p {
     font-size: 30px;
+}
+
+.arrow a:link, .arrow a:visited{
+    color: #484848;
 }
 
 .about-text-box h1 {
@@ -206,7 +214,7 @@ nav img {
 .projects-col {
     width: 60%;
     margin: auto;
-    color: #fff;
+    color: #484848;
     text-align: left;
 }
 
@@ -215,22 +223,28 @@ nav img {
     transform: translate(-100%, 20%);
 }
 
+.projects-col h1 {
+    color: #484848; 
+    font-size: 150px;
+    transform: translate(-10%, 20%);
+}
+
 .projects-col h2 {
     font-size: 40px;
     text-align: center;
 }
 
 .projects-col h3 {
-    transform: translate(20%, -700%);
+    transform: translate(20%, -300%);    
     text-align: center;
     font-size: 30px;
 }
 
 .projects-col p {
     font-size: 20px;
-    transform: translate(20%, -90%);
+    transform: translate(20%, -30%);
     text-align: center;
-    color: #fff;
+    color: #484848;
     font-weight: 300;
     line-height: 25px;
 }
@@ -251,6 +265,7 @@ nav img {
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 15px;
+    transform: translate(0%, 300%);   
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -261,6 +276,18 @@ nav img {
     border: 1px solid #1BB02F;
     background: #1BB02F;
     transition: 0.5s;
+}
+
+.top-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #484848;
+    transform: translate(0%, 120%);    
+    padding: 12px 34px;
+    font-size: 15px;    
+    position: relative;
+    cursor: pointer;
+    text-align: end;
 }
 
 

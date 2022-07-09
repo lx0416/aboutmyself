@@ -12,118 +12,353 @@
 </head>
 
 <body>
-    <section class="course-header">
+    <section class="course-header" id="ch">
         <nav>
             <a href="index.html"><img src="images/homelogo.png"></a>
-            <div class="nav-links">
+            <div class="nav-links" >
                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="index.html" style="color: #484848">HOME</a></li>
+                    <li><a href="about.html" style="color: #484848">ABOUT</a></li>
+                    <li><a href="course.html" style="color: #484848">COURSE</a></li>
+                    <li><a href="contact.html" style="color: #484848">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="about-text-box" id="f">
+        <div class="about-text-box">
             <h1><b>Course</b></h1>
-            <h2>SIM-UOL BSc Computer Science <br>(Machine Learning and AI)</h2>
-            <div class="arrow" style="bottom: 0px;">
-                <p>Projects</p>
-                <i class=" fas fa-chevron-down " onclick="scrollTos()" style=" font-size: 60px; "></i>
-            </div>
+            <h2>SIM-UOL BSc Computer Science <br>(Machine Learning and Artificial Intelligence)</h2>            
+        </div>
+        <div class="arrow" style="bottom: 0px;">
+            <p>Projects</p>
+            <a href="#p12">
+                <i class="fas fa-chevron-down" style="font-size: 60px; "></i>
+            </a>
         </div>
     </section>
 
-    <section class="project-header " id="s">
-        <div class="projects-col ">
+    <section class="project-header" id="p12">
+        <div class="projects-col">
             <h2>Projects</h2>
             <br>
-            <img src="images/first.png ">
+            <h1>1</h1>
             <br>
-            <h3>Booking System</h3>
+            <h3>Final Year Project: Facial Expression Recognition</h3>
             <br>
+            <p>Technologies:
+                <br>
+                <em>Python Tensorflow</em>
+            </p>
+            <br><br><br><br>
+            <p>The final year project consists of extensive research on the various architectures used in Deep Learning.
+                The project is currently ongoing but a prototype has been developed, and can be accessed <a href="https://github.com/lx0416/FYP-Facial-Expression-Recognition/blob/main/Week%2010%20submission.ipynb" target="_blank " class="about-button "> here </a>.  
+                The prototype consists of a comparison between a fully connected feedforward neural network and a convolutional neural network (CNN). 
+                Since background research suggests that a more complex and deep neural network performs better, it is expected that CNN will triumph.
+                The dataset was acquired via <a href="https://www.kaggle.com/datasets/msambare/fer2013" target="_blank " class="about-button "> Kaggle </a>.
+                <br><br>The remaining work intends to employ data augmentation and transfer learning to CNN.
+                <br>The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/FYP-Facial-Expression-Recognition" target="_blank " class="about-button "> here </a>.
+                <br>                
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p11">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p11">
+        <div class="projects-col">
+            <br>
+            <h1>2</h1>
+            <br>
+            <h3>Genetic Algorithm</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>Python</em>
+            </p>
+            <br><br><br><br>
+            <p>An AI project that evolves creatures based on their fitness score, which is calculated by the Euclidean distance between the starting and final position.
+                <br><br>The project follows the Darwin evolution theory, which incorporates 3 stages: a varied population with heredity, selection process and finally, breeding. 
+                The creatures have a chance of mutation which might change the genetic material of the creatures so that overtime new variation comes and is tested and the population as a whole changes over time.
+                <br><br>The repository for this project can be seen in my github profile <a href="https://github.com/lx0416/genetic-algorithm" target="_blank " class="about-button "> here </a>.
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p10">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p10">
+        <div class="projects-col">
+            <br>
+            <h1>3</h1>
+            <br>
+            <h3>Fake News Detection</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>Python Tensorflow</em>
+            </p>
+            <br><br><br><br>
+            <p>This project originated from the problem of fake news being ever more prevalent, regardless of geographical location.
+                The dataset was acquired via <a href="https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset" target="_blank " class="about-button "> Kaggle </a>.
+                The data was sufficiently cleaned using methods such as tokenization and lemmatization.
+                <br><br>Text representation methods such as Bag of Words (BoW) and TF-IDF were applied to generate a baseline model and a classification approach respectively.
+                Baseline model utilises Multinomial Naive Bayes, which generated a 94% accuracy, while the classification approach utilises Random Forest, with a 98% accuracy.
+                <br><br>The repository for this project can be seen in my github profile <a href="https://github.com/lx0416/Fake-News-Detection" target="_blank " class="about-button "> here </a>.                
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p9">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p9">
+        <div class="projects-col">
+            <br>
+            <h1>4</h1>
+            <br>
+            <h3>Multilingual Automatic Speech Recognition (ASR) System</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>Python, Mozilla DeepSpeech, Google Speech Recognition, Vosk</em>
+            </p>
+            <br><br><br><br><br>
+            <p>This project arose to be integrated as an airport virtual assistant. 
+                It will be installed in an environment that can be extremely noisy, so, the ASR system is configured to handle this situation by implementing a moving average low-pass filter to handle noisy environments.                
+                <br><br>The project incorporates ASR software packages in the application to avoid slow-down or interruptions to the system in the event of issues with the internet connection. 
+                It utilizes offline ASR such as Mozilla DeepSpeech, Google Speech Recognition and Vosk.
+                <br><br>User selects any of three languages and audio files are provided to evaluate the application.
+                The performance of using the three different software are then compared by their Word Error Rate (WER).
+                <br><br>The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/Intelligent-Signal-Processing-Exercises/tree/main/Ex4" target="_blank " class="about-button "> here </a>.                
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p8">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p8">
+        <div class="projects-col">
+            <br>
+            <h1>5</h1>
+            <br>
+            <h3>Social Network Web Application</h3>
+            <br>
+            <p>Technologies:
+            <br>
+            <em>Python Django, JavaScript, SQL, HTML/CSS</em>
+            </p>
+            <br><br><br>
+            <p>A social media web application that has a similar functionality to Twitter. 
+                It allows users to create accounts, log in and out, search for and add users, chat in real-time and post updates etc.
+                The project implemented Django Python packages and REST framework, such as models and migrations. 
+                Unit testing is also appropriately done for server side code.                 
+                <br><br>The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/Social-Media-Application" target="_blank " class="about-button "> here </a>.
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p7">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p7">
+        <div class="projects-col">
+            <br>
+            <h1>6</h1>
+            <br>
+            <h3>Automatic File Converter</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>Python, ffprobe, ffmpeg</em>
+            </p>
+            <br><br><br>
+            <p>A project that automates the process of converting files to a specified format. 
+                The application examinines the format of the films and converts them. The specified formats include video frame rate and audio channels etc.
+                From a series of video files, the application will generate a brief report in indicating which films do not respect the digital format specified.
+                The application will convert the films and produce another report indicating whether they have been successful.
+                <br><br>The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/Intelligent-Signal-Processing-Exercises/tree/main/Ex7" target="_blank " class="about-button "> here </a>.                
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p6">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p6">
+        <div class="projects-col">
+            <br>
+            <h1>7</h1>
+            <br>
+            <h3>League of Legends Research Topic</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>Python</em>
+                </p>
+                <br><br>
+            <p>A project that researches on Champion, Damage, and Equipment in the League of Legends Esports Scene.
+                The research questions are as follows:
+                <li style="transform: translate(50%, 0%);">Which champion deals the most attack damage? </li>
+                <li style="transform: translate(50%, 0%);">Which champion deals the most magic damage?</li>
+                <li style="transform: translate(50%, 0%);">Which champion is relatively easy to master?</li>
+                <li style="transform: translate(50%, 0%);">What type of equipment is suitable for some champions?</li>
+                <br><br><br><br>
+                <p>The project was completed in a Jupyter notebook and the dataset was acquired via <a href="https://www.kaggle.com/tekpixo/leagueoflegendsprematch2021?select=dataset_champions.csv" target="_blank " class="about-button "> Kaggle </a>. 
+                The data was sufficiently cleaned and analysed to answer the research questions above. An interesting insight is that there are more champions that are difficult to master, which makes LoL a relatively difficult game for new moba players. 
+                Another interesting point to note is that surprisingly, the champion with the highest damage is a tank/fighter, rather than a mage/marksman.
+                <br>The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/Research-Topic-LoL" target="_blank " class="about-button "> here </a>.
+                <br>
+                </p>
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p5">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header" id="p5">
+        <div class="projects-col">
+            <br>
+            <h1>8</h1>
+            <br>
+            <h3>SIM Study Desk Booking Application</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>JavaScript, React Native, Google Firebase Firestore</em>
+                </p>
+                <br><br><br><br><br>
             <p>A booking system specifically created to allow SIM students to book study tables along the corridor. The project was completed as a group of 6.
                 <br><br> This mobile application allows students to select their desired date, time, and location of the table to be booked. This ensures productivity and efficiency for students as they are guaranteed a place to study.
                 <br><br> The project consisted of both frontend and backend. Javascript prograamming language was used as the group utilised React Native. As for the backend, Google Firebase was used as it had realtime database feature. Contributions
                 to the repository owned by my groupmate can be seen <a href="https://github.com/lx0416/Booking_System " target="_blank " class="about-button "> here </a>.
                 <br>
-            </p>
-        </div>
+            </p>            
+        </div>        
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p4">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div>        
     </section>
 
-    <section class="project-header ">
-        <div class="projects-col ">
+    <section class="project-header" id="p4">
+        <div class="projects-col">
             <br>
-            <img src="images/second.png ">
+            <h1>9</h1>
             <br>
             <h3>Nutritional Calculator</h3>
             <br>
+            <p>Technologies:
+                <br>
+                <em>JavaScript, SQL, HTML/CSS</em>
+            </p>
+            <br><br><br><br><br>
             <p>A web-based nutritions calculator that allows users to add ingredients as well as their nutritional values and other basic information.
                 <br><br> The website then allows users to search for and select ingredients to compute the total nutirional value and displayed to the user.
                 <br><br> The project consisted of both frontend and backend. Frontend is relatively simple which uses HTML/CSS and Javascript prograamming language. As for the backend, mySQL was used to store the database of ingredients. to the repository
-                The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/Booking_System " target="_blank " class="about-button "> here </a>.
+                The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/CalorieBuddy.git" target="_blank " class="about-button "> here </a>.
                 <br>
             </p>
         </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p3">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
     </section>
 
-    <section class="project-header ">
+    <section class="project-header " id="p3">
         <div class="projects-col ">
             <br>
-            <img src="images/third.png ">
+            <h1>10</h1>
+            <br>
+            <h3>DJ Player</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>C++, JUCE Library</em>
+            </p>
+            <br><br><br><br>
+            <p>A media player that is similar to one a DJ uses. Though not very aesthetic, it functions as it should and can play and mix tracks.
+                <br><br>Prerequisite to using this application is downloading mp3 files to be played and mixed in this application, as well as installing the JUCE library amd its dependencies.
+                <br><br> The project uses C++ together with the JUCE library to produce the look and functions of a media player. The JUCE library supports multi-platform audio applications. The website for the JUCE library can be accessed <a href="https://juce.com/ "
+                    target="_blank " class="about-button "> here </a>. The repository for this application can be seen in <a href="https://github.com/lx0416/Otodecks " target="_blank " class="about-button "> my github profile </a>.
+                <br>
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p2">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+
+    <section class="project-header " id="p2">
+        <div class="projects-col ">
+            <br>
+            <h1>11</h1>
+            <br>            
+            <h3>Cryptocurrency Trading Simulator</h3>
+            <br>
+            <p>Technologies:
+                <br>
+                <em>C++</em>
+            </p>
+            <br><br><br><br><br>
+            <p>A trading simulator that simulates cryptocurrency trading on platforms such as moomoo. The terminal is used to display the user's current wallet as well as state the currency and amount they would like to bid or ask for.
+                <br><br>The user will first start with a certain amount of currency, then attempt to ask or bid using whichever currency they would like. Due to the purpose of it being a simulation, a file containing all "current " bids and asks will
+                be passed in to a function which matches the user's bids and asks. An appropriate response will be returned to the user according to a successful/unsuccessful match.
+                <br><br> The project was created using C++ programming language and the concept of object-oriented programming. The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/trading-bot" target="_blank " class="about-button "> here </a>.
+                <br>
+            </p>
+        </div>
+        <div class="arrow" style="bottom: 7%;">            
+            <a href="#p1">
+                <i class="fas fa-chevron-down" style="font-size: 60px;"></i>
+            </a>
+        </div> 
+    </section>
+    
+    <section class="project-header " id="p1">
+        <div class="projects-col ">
+            <br>
+            <h1>12</h1>
             <br>
             <h3>First Personal Website</h3>
             <br>
+            <p>Technologies:
+                <br>
+                <em>HTML/CSS</em>
+            </p>
+            <br><br><br><br>
             <p>A simple website that is similar to this one! Though not as aesthetic, it is a good indicator of where my starting point is.
                 <br><br>Seeing oneself slowly improving, it is also important to reflect on each project and personal progress.
-                <br><br> The project consisted of only frontend. Frontend is relatively simple which used HTML/CSS and Javascript prograamming language. The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/Booking_System "
+                <br><br> The project consisted of only frontend. Frontend is relatively simple which used HTML/CSS and Javascript prograamming language. The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/first-website.git"
                     target="_blank " class="about-button "> here </a>.
                 <br>
             </p>
         </div>
+        <a href="https://github.com/lx0416 " target="_blank " class=" github-button ">Github profile</a>
+        <br>
+        <a href="#ch" class="top-button">Back to Top</a>        
     </section>
-
-    <section class="project-header ">
-        <div class="projects-col ">
-            <br>
-            <img src="images/four.png ">
-            <br>
-            <h3>DJ Player</h3>
-            <br>
-            <p>A media player that is similar to one a DJ uses. Though not very aesthetic, it functions as it should and can play and mix tracks.
-                <br><br>Prerequisite to using this application is downloading mp3 files to be played and mixed in this application, as well as installing the JUCE library amd its dependencies.
-                <br><br> The project uses C++ together with the JUCE library to produce the look and functions of a media player. The JUCE library supports multi-platform audio applications. The website for the JUCE library can be accessed <a href="https://juce.com/ "
-                    target="_blank " class="about-button "> here </a>. The repository for this application can be seen in <a href="https://github.com/lx0416/lx.github.io " target="_blank " class="about-button "> my github profile </a>.
-                <br>
-            </p>
-        </div>
-    </section>
-
-    <section class="project-header ">
-        <div class="projects-col ">
-            <br>
-            <img src="images/five.png ">
-            <br>
-            <h3>Cryptocurrency Trading Simulator</h3>
-            <br><br><br>
-            <p>A trading simulator that simulates cryptocurrency trading on platforms such as moomoo. The terminal is used to display the user's current wallet as well as state the currency and amount they would like to bid or ask for.
-                <br><br>The user will first start with a certain amount of currency, then attempt to ask or bid using whichever currency they would like. Due to the purpose of it being a simulation, a file containing all "current " bids and asks will
-                be passed in to a function which matches the user's bids and asks. An appropriate response will be returned to the user according to a successful/unsuccessful match.
-                <br><br> The project was created using C++ programming language and the concept of object-oriented programming. The repository for this website can be seen in my github profile <a href="https://github.com/lx0416/lx.github.io
-                    " target="_blank " class="about-button "> here </a>.
-                <br>
-            </p>
-        </div>
-        <a href="https://github.com/lx0416 " target="_blank " class=" github-button ">My Github profile</a>
-    </section>
-
-    <script>
-        function scrollTos() {
-            document.getElementById('s').scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-    </script>
 </body>
 
 </html>
